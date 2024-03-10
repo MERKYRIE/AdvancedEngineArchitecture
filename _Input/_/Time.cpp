@@ -1,6 +1,6 @@
 #include"Time.hpp"
 
-namespace NBlindness
+namespace NAdvancedEngineArchitecture
 {
     void CTime::BUpdate()
     {

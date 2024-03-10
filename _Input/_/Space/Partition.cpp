@@ -7,7 +7,7 @@
 #include"Video.hpp"
 #include"Video\\Texture.hpp"
 
-namespace NBlindness::NSpace
+namespace NAdvancedEngineArchitecture::NSpace
 {
     CPartition::CPartition()
     {

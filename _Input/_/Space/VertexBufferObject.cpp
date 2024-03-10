@@ -2,7 +2,7 @@
 
 #include"Debug.hpp"
 
-namespace NBlindness::NSpace
+namespace NAdvancedEngineArchitecture::NSpace
 {
     CVertexBufferObject::CVertexBufferObject(const std::array<float , 120>& PVertices)
     {

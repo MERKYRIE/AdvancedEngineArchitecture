@@ -1,6 +1,6 @@
 #include"Debug.hpp"
 
-namespace NBlindness{
+namespace NAdvancedEngineArchitecture{
     void CDebug::IAssert(bool PCondition , const std::string& PMessage , SDL_MessageBoxFlags PFlags , const std::source_location& PLocation)
     {
         if(PCondition)

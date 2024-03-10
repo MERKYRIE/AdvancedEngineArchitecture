@@ -2,7 +2,7 @@
 
 #include"Advanced Engine Architecture.hpp"
 
-namespace NBlindness
+namespace NAdvancedEngineArchitecture
 {
     inline class CInput
     {

@@ -17,21 +17,21 @@
 
 std::int32_t main(std::int32_t , char**)
 {
-    NBlindness::GDebug.OSimpleDirectMediaLayerCodeError(SDL_Init(SDL_INIT_EVERYTHING));
-    NBlindness::GAudio.BInitialize();
-    NBlindness::GVideo.BInitialize();
-    NBlindness::GSpace.BInitialize();
-    while(!NBlindness::GInput.OIsKeyHeld(SDL_SCANCODE_ESCAPE))
+    NAdvancedEngineArchitecture::GDebug.OSimpleDirectMediaLayerCodeError(SDL_Init(SDL_INIT_EVERYTHING));
+    NAdvancedEngineArchitecture::GAudio.BInitialize();
+    NAdvancedEngineArchitecture::GVideo.BInitialize();
+    NAdvancedEngineArchitecture::GSpace.BInitialize();
+    while(!NAdvancedEngineArchitecture::GInput.OIsKeyHeld(SDL_SCANCODE_ESCAPE))
     {
-        NBlindness::GInput.BUpdate();
-        NBlindness::GTime.BUpdate();
-        NBlindness::GVideo.BPreupdate();
-        NBlindness::GSpace.BUpdate();
-        NBlindness::GVideo.BPostupdate();
+        NAdvancedEngineArchitecture::GInput.BUpdate();
+        NAdvancedEngineArchitecture::GTime.BUpdate();
+        NAdvancedEngineArchitecture::GVideo.BPreupdate();
+        NAdvancedEngineArchitecture::GSpace.BUpdate();
+        NAdvancedEngineArchitecture::GVideo.BPostupdate();
     };
-    NBlindness::GSpace.BDeinitialize();
-    NBlindness::GVideo.BDeinitialize();
-    NBlindness::GAudio.BDeinitialize();
+    NAdvancedEngineArchitecture::GSpace.BDeinitialize();
+    NAdvancedEngineArchitecture::GVideo.BDeinitialize();
+    NAdvancedEngineArchitecture::GAudio.BDeinitialize();
     SDL_Quit();
     return(0);
 }

@@ -2,7 +2,7 @@
 
 #include"Debug.hpp"
 
-namespace NBlindness::NVideo
+namespace NAdvancedEngineArchitecture::NVideo
 {
     CCharacter::CCharacter(TTF_Font* PFont , char PCode)
     {

@@ -2,7 +2,7 @@
 
 #include"Debug.hpp"
 
-namespace NBlindness::NAudio
+namespace NAdvancedEngineArchitecture::NAudio
 {
     CSound::CSound(const std::string& PPath)
     {

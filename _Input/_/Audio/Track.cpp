@@ -2,7 +2,7 @@
 
 #include"Debug.hpp"
 
-namespace NBlindness::NAudio
+namespace NAdvancedEngineArchitecture::NAudio
 {
     CTrack::CTrack(const std::string& PPath)
     {

@@ -2,7 +2,7 @@
 
 #include"Advanced Engine Architecture.hpp"
 
-namespace NBlindness::NVideo
+namespace NAdvancedEngineArchitecture::NVideo
 {
     class CTexture
     {

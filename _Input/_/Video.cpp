@@ -5,7 +5,7 @@
 #include"Video\\Shader.hpp"
 #include"Video\\Texture.hpp"
 
-namespace NBlindness
+namespace NAdvancedEngineArchitecture
 {
     void CVideo::BInitialize()
     {

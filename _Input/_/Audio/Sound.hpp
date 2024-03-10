@@ -2,7 +2,7 @@
 
 #include"Advanced Engine Architecture.hpp"
 
-namespace NBlindness::NAudio
+namespace NAdvancedEngineArchitecture::NAudio
 {
     class CSound
     {

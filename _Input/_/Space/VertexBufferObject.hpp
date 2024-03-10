@@ -2,7 +2,7 @@
 
 #include"Advanced Engine Architecture.hpp"
 
-namespace NBlindness::NSpace
+namespace NAdvancedEngineArchitecture::NSpace
 {
     class CVertexBufferObject
     {
