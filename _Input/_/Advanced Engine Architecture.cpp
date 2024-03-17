@@ -32,6 +32,7 @@ std::int32_t main(std::int32_t , char**)
     NAdvancedEngineArchitecture::GSpace.BDeinitialize();
     NAdvancedEngineArchitecture::GVideo.BDeinitialize();
     NAdvancedEngineArchitecture::GAudio.BDeinitialize();
+    SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION , "Score" , std::to_string(NAdvancedEngineArchitecture::GSpace.FPlaneScore).c_str() , nullptr);
     SDL_Quit();
     return(0);
 }

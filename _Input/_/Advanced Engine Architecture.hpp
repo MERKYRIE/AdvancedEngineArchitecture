@@ -22,6 +22,7 @@
     #include"..\\GraphicsLibraryMathematics\\glm.hpp"
     #include"..\\GraphicsLibraryMathematics\\gtc\\matrix_transform.hpp"
     #include"..\\GraphicsLibraryMathematics\\gtc\\type_ptr.hpp"
+    #include"..\\CGALOSP\\Simple_cartesian.h"
 #pragma warning(pop)
 
 #pragma warning(disable : 26495)

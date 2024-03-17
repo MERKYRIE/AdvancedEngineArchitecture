@@ -7,6 +7,7 @@ namespace NAdvancedEngineArchitecture
     namespace NVideo
     {
         class CFont;
+        class CModel;
         class CShader;
         class CTexture;
     }
@@ -24,6 +25,7 @@ namespace NAdvancedEngineArchitecture
         private : std::uint32_t FProgram;
         private : std::vector<std::shared_ptr<NVideo::CFont>> FFonts;
         private : std::vector<std::shared_ptr<NVideo::CTexture>> FTextures;
+        private : std::vector<std::shared_ptr<NVideo::CModel>> FModels;
 
         private : void BInitialize();
         private : void BPreupdate();
@@ -32,9 +34,10 @@ namespace NAdvancedEngineArchitecture
 
         public : float ORatio();
         public : float OInversedRatio();
-        public : const NVideo::CFont& OAccessFont(const std::string& PPath);
-        public : const NVideo::CTexture& OAccessSpecificTexture(const std::string& PPath);
-        public : const NVideo::CTexture& OAccessRandomTexture();
+        public : std::shared_ptr<const NVideo::CFont> OAccessFont(const std::string& PPath);
+        public : std::shared_ptr<const NVideo::CTexture> OAccessSpecificTexture(const std::string& PPath);
+        public : std::shared_ptr<const NVideo::CTexture> OAccessRandomTexture();
+        public : std::shared_ptr<const NVideo::CModel> OAccessModel(const std::string& PPath);
     }
     GVideo;
 }
